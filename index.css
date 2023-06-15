@@ -32,7 +32,8 @@ body {
 }
 li {
     background-color: #6e768166;
-    border-radius: 25px;
-    width: fit-content;
+    padding: 5px 5px 5px 5px;
     height: fit-content;
+    width: auto;
+    border-radius: 5px;
 }
