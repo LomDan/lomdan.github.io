@@ -25,7 +25,7 @@ body {
     justify-self: right;
     align-items: center;
     background-color: #161b22;
-    border: 25px;
+    border-radius: 25px;
     width: fit-content;
     height: fit-content;
     padding: 10px 10px 10px 15px;
