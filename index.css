@@ -33,4 +33,6 @@ body {
 li {
     background-color: #6e768166;
     border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
 }
