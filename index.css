@@ -68,14 +68,14 @@ li {
 }
 @media screen and (max-width: 720px) {
     .intro {
-        width: 95%;
+        width: 85%;
     }
     .about {
-        top: 40%;
-        width: 95%;
+        top: 35%;
+        width: 85%;
     }
     .languages {
-        top: 80%;
+        top: 65%;
         left: 15%;
     }
 }
