@@ -33,7 +33,7 @@ A website to showcase my skill set and projects.
 
 > My contact info.
 - email:            lomdan2@gmail.com
-- github:           https://github.com/LomDan
-- stackoverflow:    https://stackoverflow.com/users/21099953/lomdan
-- replit:           https://www.replit.com/@LomDan
-- codepen.io:       https://www.codepen.io/@LomDan
+- [github](https://github.com/LomDan)
+- [stackoverflow](https://stackoverflow.com/users/21099953/lomdan)
+- [replit](https://www.replit.com/@LomDan)
+- [codepen.io](https://www.codepen.io/@LomDan)
