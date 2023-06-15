@@ -67,8 +67,12 @@ li {
     box-shadow: #21262d 5px 5px;
 }
 @media screen and (max-width: 720px) {
+    .intro {
+        width: 95%;
+    }
     .about {
         top: 40%;
+        width: 95%;
     }
     .languages {
         top: 80%;
