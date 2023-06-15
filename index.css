@@ -66,3 +66,7 @@ li {
     padding: 10px 10px 10px 15px;
     box-shadow: #21262d 5px 5px;
 }
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
