@@ -13,7 +13,7 @@ body {
     justify-content: center;
     justify-self: left;
     align-items: center;
-    position: absolute;
+    position: relative;
     top: 5%;
     left: 5%;
     background-color: #21262d;
@@ -27,7 +27,7 @@ body {
     justify-content: center;
     justify-self: right;
     align-items: center;
-    position: absolute;
+    position: relative;
     top: 5%;
     right: 5%;
     background-color: #161b22;
