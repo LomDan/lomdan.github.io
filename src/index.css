@@ -8,3 +8,25 @@
 body {
     background-color: #0d1117;
 }
+.intro {
+    display: flex;
+    justify-content: center;
+    justify-self: left;
+    align-items: center;
+    background-color: #21262d;
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px 10px 10px;
+}
+.languages {
+    display: flex;
+    justify-content: center;
+    justify-self: right;
+    align-items: center;
+    background-color: #161b22;
+    border: 25px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 10px 10px 15px;
+}
