@@ -68,11 +68,11 @@ li {
 }
 @media screen and (max-width: 720px) {
     .about {
-        top: 30%;
+        top: 40%;
     }
     .languages {
-        top: 60%;
-        left: 5%;
+        top: 80%;
+        left: 15%;
     }
 }
 h2 {
