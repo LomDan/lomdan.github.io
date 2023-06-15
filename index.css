@@ -67,11 +67,12 @@ li {
     box-shadow: #21262d 5px 5px;
 }
 @media screen and (max-width: 720px) {
-    .intro {
-        width: 100vb;
-    }
     .about {
-        width: 100vb;
+        top: 20%;
+    }
+    .languages {
+        top: 45%;
+        left: 5%;
     }
 }
 h2 {
