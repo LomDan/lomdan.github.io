@@ -16,12 +16,12 @@ body {
     position: absolute;
     top: 5%;
     left: 5%;
-    background-color: #21262d;
+    background-color: #161b22;
     border-radius: 25px;
     width: fit-content;
     height: fit-content;
     padding: 10px 15px 10px 10px;
-    box-shadow: #6e768166 5px 5px;
+    box-shadow: #21262d 5px 5px;
 }
 h1 {
     font-size: 20px;
