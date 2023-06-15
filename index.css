@@ -30,3 +30,7 @@ body {
     height: fit-content;
     padding: 10px 10px 10px 15px;
 }
+li {
+    background-color: #6e768166;
+    border-radius: 25px;
+}
