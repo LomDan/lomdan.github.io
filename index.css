@@ -18,7 +18,7 @@ body {
     left: 5%;
     background-color: #21262d;
     border-radius: 25px;
-    width: fit-content;
+    width: 100vb;
     height: fit-content;
     padding: 10px 15px 10px 10px;
     box-shadow: #6e768166 5px 5px;
@@ -61,7 +61,7 @@ li {
     left: 5%;
     background-color: #161b22;
     border-radius: 25px;
-    width: fit-content;
+    width: 100vb;
     height: fit-content;
     padding: 10px 10px 10px 15px;
     box-shadow: #21262d 5px 5px;
