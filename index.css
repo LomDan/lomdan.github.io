@@ -21,10 +21,12 @@ body {
     width: fit-content;
     height: fit-content;
     padding: 10px 15px 10px 10px;
+    box-shadow: #6e768166 5px 5px;
 }
 h1 {
     font-size: 20px;
     font-weight: 500;
+    padding: 5px;
 }
 .languages {
     display: flex;
@@ -32,13 +34,14 @@ h1 {
     justify-self: right;
     align-items: center;
     position: absolute;
-    top: 5%;
-    left: 70%;
+    top: 50%;
+    left: 80%;
     background-color: #161b22;
     border-radius: 25px;
     width: fit-content;
     height: fit-content;
     padding: 10px 10px 10px 15px;
+    box-shadow: #21262d 5px 5px;
 }
 li {
     background-color: #6e768166;
@@ -46,4 +49,5 @@ li {
     height: fit-content;
     width: auto;
     border-radius: 5px;
+    box-shadow: #21262d 5px 5px;
 }
