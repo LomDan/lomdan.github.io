@@ -18,7 +18,7 @@ body {
     left: 5%;
     background-color: #21262d;
     border-radius: 25px;
-    width: 100vb;
+    width: fit-content;
     height: fit-content;
     padding: 10px 15px 10px 10px;
     box-shadow: #6e768166 5px 5px;
@@ -61,10 +61,18 @@ li {
     left: 5%;
     background-color: #161b22;
     border-radius: 25px;
-    width: 100vb;
+    width: fit-content;
     height: fit-content;
     padding: 10px 10px 10px 15px;
     box-shadow: #21262d 5px 5px;
+}
+@media screen and (max-width: 720px) {
+    .intro {
+        width: 100vb;
+    }
+    .about {
+        width: 100vb;
+    }
 }
 h2 {
     font-size: 18px;
