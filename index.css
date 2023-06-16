@@ -57,7 +57,7 @@ li {
     justify-self: left;
     align-items: center;
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 5%;
     background-color: #161b22;
     border-radius: 25px;
@@ -82,4 +82,19 @@ li {
 h2 {
     font-size: 18px;
     font-weight: 400;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    justify-self: left;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    background-color: #161b22;
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px 10px 10px;
+    box-shadow: #21262d 5px 5px;
 }
