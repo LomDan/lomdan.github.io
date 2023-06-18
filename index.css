@@ -90,15 +90,13 @@ h2 {
         width: 85%;
     }
     .about {
-        top: 25%;
         width: 85%;
     }
     .languages {
-        top: 55%;
         left: 15%;
     }
     .contact {
-        top: 95%;
+        top: 125%;
         width: 85%;
     }
 }
