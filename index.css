@@ -97,6 +97,9 @@ nav {
     justify-content: flex-end;
     align-items: flex-end;
     width: 100%;
+    a {
+        padding-left: 20px;
+    }
 }
 @media screen and (max-width: 1080px) {
     .intro {
