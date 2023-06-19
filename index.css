@@ -91,6 +91,11 @@ h2 {
     padding: 10px 15px 10px 10px;
     box-shadow: #21262d 5px 5px;
 }
+nav {
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+}
 @media screen and (max-width: 1080px) {
     .intro {
         width: 85%;
