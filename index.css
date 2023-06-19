@@ -95,6 +95,7 @@ nav {
     position: sticky;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
 }
 @media screen and (max-width: 1080px) {
     .intro {
