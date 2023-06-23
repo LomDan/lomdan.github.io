@@ -101,6 +101,11 @@ nav {
         padding-left: 20px;
     }
 }
+.nav {
+    padding: 5px 5px 5px 5px;
+    text-overflow: ellipsis;
+    text-decoration: overline;
+}
 @media screen and (max-width: 1080px) {
     .intro {
         width: fit-content;
