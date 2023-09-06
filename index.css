@@ -124,19 +124,16 @@ nav {
     }
 }
 @media screen and (max-width: 720px) {
-    .intro {
-        width: 85%;
-    }
     .about {
-        top: 25%;
+        top: 45%;
         width: 85%;
     }
     .languages {
-        top: 55%;
+        top: 125%;
         left: 15%;
     }
     .contact {
-        top: 125%;
+        top: 200%;
         width: 85%;
     }
 }
