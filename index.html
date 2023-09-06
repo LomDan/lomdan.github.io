@@ -107,6 +107,16 @@
               }, 30);
             }
         </script>
+        <script>
+            const blob = document.getElementById("blob");
+            window.onpointermove = event => { 
+              const { clientX, clientY } = event;
+                blob.animate({
+                    left: `${clientX}px`,
+                    top: `${clientY}px`
+                  }, { duration: 3000, fill: "forwards" });
+                }
+        </script>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
