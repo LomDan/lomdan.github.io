@@ -29,11 +29,13 @@ body {
     height: fit-content;
     padding: 10px 15px 10px 10px;
     box-shadow: #21262d 5px 5px;
+    z-index: 2;
 }
 h1 {
     font-size: 20px;
     font-weight: 500;
     padding: 5px;
+    z-index: 3;
 }
 .languages {
     display: flex;
@@ -49,6 +51,7 @@ h1 {
     height: fit-content;
     padding: 10px 10px 10px 15px;
     box-shadow: #21262d 5px 5px;
+    z-index: 2;
 }
 li {
     background-color: #6e768166;
@@ -57,6 +60,7 @@ li {
     width: auto;
     border-radius: 5px;
     box-shadow: #21262d 5px 5px;
+    z-index: 4;
 }
 .about {
     display: flex;
@@ -72,10 +76,12 @@ li {
     height: fit-content;
     padding: 10px 10px 10px 15px;
     box-shadow: #21262d 5px 5px;
+    z-index: 2;
 }
 h2 {
     font-size: 18px;
     font-weight: 400;
+    z-index: 3;
 }
 .contact {
     display: flex;
@@ -91,6 +97,7 @@ h2 {
     height: fit-content;
     padding: 10px 15px 10px 10px;
     box-shadow: #21262d 5px 5px;
+    z-index: 2;
 }
 nav {
     position: sticky;
@@ -98,6 +105,7 @@ nav {
     justify-content: flex-end;
     align-items: flex-end;
     width: 100%;
+    z-index: 5;
     a {
         padding-left: 20px;
     }
