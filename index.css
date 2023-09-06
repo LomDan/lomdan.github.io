@@ -13,7 +13,6 @@
 }
 body {
     background-color: #0d1117;
-    z-index: -1;
 }
 .intro {
     display: flex;
