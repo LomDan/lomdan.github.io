@@ -108,6 +108,7 @@ nav {
 }
 @media screen and (max-width: 1080px) {
     .intro {
+        top: 10%;
         width: fit-content;
     }
     .about {
@@ -119,13 +120,12 @@ nav {
         left: 15%;
     }
     .contact {
-        top: 125%;
+        top: 155%;
         width: fit-content;
     }
 }
 @media screen and (max-width: 720px) {
     .about {
-        top: 45%;
         width: 85%;
     }
     .languages {
