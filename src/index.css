@@ -21,6 +21,10 @@ embed {
 }
 
 .header {
+    position: sticky;
+    z-index: 1000;
+    top: 8px;
+
     margin: 8px;
     padding: 10px;
 
@@ -46,6 +50,10 @@ embed {
 }
 
 .footer {
+    position: sticky;
+    z-index: 1000;
+    bottom: 8px;
+
     margin: 8px;
     padding: 10px;
 
