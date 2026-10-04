@@ -5,24 +5,56 @@
     user-select: none;
 }
 
+:root {
+    --background-color: #191822;
+    --primary-color: #8A8A8A;
+    --primary-accent-color: #99D5C9;
+    --secondary-color: #392B58;
+    --secondary-color-shadow: #281A47;
+    --secondary-color-transparent-1a: #392B581A;
+    --secondary-accent-color: #645E9D;
+    --tertiary-color: #6C969D;
+    --tertiary-transparent-1a: #6C969D1A;
+    --tertiary-accent-color: #2D0320;
+
+    --border-radius: 8px;
+    
+    --embed-height: 40vh;
+
+    --control-plane: 1000;
+}
+
 html {
     margin: 0;
     padding: 0;
     width: 100vw;
     height: 100vh;
 
-    background-color: #191822;
-    color: #8A8A8A;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+embed {
+    width: calc(96vw - 36px);
+    min-height: var(--embed-height);
+    max-height: var(--embed-height);
 }
 
 .header {
+    position: sticky;
+    z-index: var(--control-plane);
+    top: 8px;
+
     margin: 8px;
     padding: 10px;
 
     border-style: solid;
-    border-color: #392B58;
+    border-color: var(--secondary-color);
     border-width: 1px;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
+
+    background-color: var(--secondary-color-transparent-1a);
+    backdrop-filter: blur(10px);
 
     ul {
         padding: 10px;
@@ -41,13 +73,20 @@ html {
 }
 
 .footer {
+    position: sticky;
+    z-index: var(--control-plane);
+    bottom: 8px;
+
     margin: 8px;
     padding: 10px;
 
     border-style: solid;
-    border-color: #392B58;
+    border-color: var(--secondary-color);
     border-width: 1px;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
+
+    background-color: var(--secondary-color-transparent-1a);
+    backdrop-filter: blur(10px);
 
     ul {
         padding: 10px;
@@ -63,18 +102,18 @@ html {
 a {
     padding: 8px;
 
-    color: #645E9D;
+    color: var(--secondary-accent-color);
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 
-    color: #645E9D;
-    background-color: #392B58;
+    color: var(--secondary-accent-color);
+    background-color: var(--secondary-color);
     border-radius: 8px;
 
-    box-shadow: 2px 2px 8px 2px #281A47;
+    box-shadow: 2px 2px 8px 2px var(--secondary-color-shadow);
 }
 
 p {
