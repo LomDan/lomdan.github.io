@@ -1,2 +1,3 @@
 # lomdan.github.io
-Personal Portfolio Website for LomDan
+
+Personal Portfolio Website for @LomDan
