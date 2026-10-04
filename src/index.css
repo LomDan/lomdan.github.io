@@ -5,19 +5,29 @@
     user-select: none;
 }
 
+:root {
+    --background-color: #191822;
+    --primary-color: #8A8A8A;
+    --primary-accent-color: #99D5C9;
+    --secondary-color: #392B58;
+    --secondary-accent-color: #645E9D;
+    --tertiary-color: #6C969D;
+    --tertiary-accent-color: #2D0320;
+}
+
 html {
     margin: 0;
     padding: 0;
     width: 100vw;
     height: 100vh;
 
-    background-color: #191822;
-    color: #8A8A8A;
+    background-color: var(--background-color);
+    color: var(--primary-color);
 }
 
 embed {
     width: calc(96vw - 36px);
-    min-height: 50vh;
+    min-height: 40vh;
 }
 
 .header {
@@ -32,6 +42,9 @@ embed {
     border-color: #392B58;
     border-width: 1px;
     border-radius: 8px;
+
+    background-color: #392B581A;
+    backdrop-filter: blur(10px);
 
     ul {
         padding: 10px;
@@ -61,6 +74,9 @@ embed {
     border-color: #392B58;
     border-width: 1px;
     border-radius: 8px;
+
+    background-color: #392B581A;
+    backdrop-filter: blur(10px);
 
     ul {
         padding: 10px;
