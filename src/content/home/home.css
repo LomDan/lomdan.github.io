@@ -1,0 +1,12 @@
+#hero {
+    h2 {
+        letter-spacing: 0.16em;
+        color: #99D5C9 !important;
+    }
+}
+
+#home-content {
+    p {
+        width: 100% !important;
+    }
+}
