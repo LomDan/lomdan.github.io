@@ -34,12 +34,6 @@ html {
     color: var(--primary-color);
 }
 
-object {
-    width: calc(96vw - 36px);
-/*     min-height: var(--embed-height);
-    max-height: var(--embed-height); */
-}
-
 .header {
     position: sticky;
     z-index: var(--control-plane);
@@ -123,26 +117,6 @@ p {
 
     font-variant-ligatures: none;
 }
-
-/* .card {
-    position: relative;
-    border-style: solid;
-    border-color: var(--tertiary-color);
-    border-width: 1px;
-    border-radius: 8px;
-
-    background-color: var(--tertiary-color-transparent-1a);
-    backdrop-filter: blur(10px);
-
-    min-width: 30vw;
-    max-width: 30vw;
-
-    padding: 12px;
-} */
-
-/* .card:hover {
-
-} */
 
 .blur {
     position: absolute;
