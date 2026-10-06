@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../../../index.css"/>
-        <link rel="stylesheet" href="./frameworks.css"/>
-        <script src="../../../index.js" defer></script>
+        <link rel="stylesheet" href="./index.css"/>
+        <link rel="stylesheet" href="./src/content/frameworks/frameworks.css"/>
+        <script src="./index.js" defer></script>
     </head>
     <body>
         <main>
@@ -11,16 +11,19 @@
                 <h3>Frameworks.</h3>
             </section>
             <section id="frameworks-content">
-                <div class="card">
-                    <h4>Angular</h4>
-                </div>
-                <div class="card">
-                    <h4>.Net Maui</h4>
-                </div>
-            </section>
-            <section id="frameworks-actions">
-                <button id="frameworks-forward" onclick="scroll_experience_items_backward()"><-</button>
-                <button id="frameworks-backward" onclick="scroll_experience_items_forward()">-></button>
+                <ul class="carousel">
+                    <li class="carousel-item" data-accName="angular">
+                        <div>
+                            <h4>Angular</h4>
+                        </div>
+                    </li>
+                    <li class="carousel-item" data-accName=".net-maui">
+                        <div>
+                            <h4>.Net Maui</h4>
+                        </div>
+                    </li>
+                    <div class="blur"></div>
+                </ul>
             </section>
         </main>
     </body>

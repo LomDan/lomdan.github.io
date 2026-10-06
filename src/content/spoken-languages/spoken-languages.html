@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../../../index.css"/>
-        <link rel="stylesheet" href="./spoken-languages.css"/>
-        <script src="../../../index.js" defer></script>
+        <link rel="stylesheet" href="./index.css"/>
+        <link rel="stylesheet" href="./src/content/spoken-languages/spoken-languages.css"/>
+        <script src="./index.js" defer></script>
     </head>
     <body>
         <main>
@@ -11,21 +11,33 @@
                 <h3>Education.</h3>
             </section>
             <section id="spoken-languages-content">
-                <div class="card">
-                    <h4>English</h4>
-                    <h5>Native</h5>
-                    <p>Cefr: C2</p>
-                </div>
-                <div class="card">
-                    <h4>German</h4>
-                    <h5>Elementary proficiency</h5>
-                    <p>Cefr: high A1</p>
-                </div>
-                <div class="card">
-                    <h4>Polish</h4>
-                    <h5>Elementary proficiency</h5>
-                    <p>Cefr: A1</p>
-                </div>
+                <ul class="carousel">
+                    <li class="carousel-item" data-accName="english">
+                        <div>
+                            <h4>English</h4>
+                            <h5>Native</h5>
+                            <p>CEFR: C2</p>
+                            <img src=""/>
+                        </div>
+                    </li>
+                    <li class="carousel-item" data-accName="german">
+                        <div>
+                            <h4>German</h4>
+                            <h5>Elementary Proficiency</h5>
+                            <p>CEFR: A1</p>
+                            <img src="./src/resources/flags/german.svg"/>
+                        </div>
+                    </li>
+                    <li class="carousel-item" data-accName="polish">
+                        <div>
+                            <h4>Polish</h4>
+                            <h5>Elementary Proficiency</h5>
+                            <p>CEFR: A1</p>
+                            <img src="./src/resources/flags/polish.svg"/>
+                        </div>
+                    </li>
+                    <div class="blur"></div>
+                </ul>
             </section>
         </main>
     </body>
