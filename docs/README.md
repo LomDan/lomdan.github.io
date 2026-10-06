@@ -12,6 +12,7 @@ This website is built with pure HTML, CSS and Javascript.
 
 ## Project Structure
 
+```
 ┌─ docs                 # contains all the documentation for the project
 ├─ src                  # contains all the content and resources for the website
 ├──── content           # contains the HTML for the section as well as any custom CSS & JS overrides
@@ -22,3 +23,4 @@ This website is built with pure HTML, CSS and Javascript.
 ├─ index.html           # main HTML file for GitHub Pages
 ├─ index.js             # main JS
 └─ README.md
+```
