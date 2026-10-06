@@ -12,18 +12,13 @@ This website is built with pure HTML, CSS and Javascript.
 
 ## Project Structure
 
-```
-/ docs                 # contains all the documentation for the project
-/ src                  # contains all the content and resources for the webite
-  / content
-    / ... {section}    # contains the HTML for the section as well as any custom CSS & JS overrides
-  / resources
-    / flags            # custom svgs for country flags
-      ...
-    / icons            # custom svg icons
-      ...
-/ index.css            # main CSS
-/ index.html           # main HTML file for GitHub Pages
-/ index.js             # main JS
-/ README.md
-```
+┌─ docs                 # contains all the documentation for the project
+├─ src                  # contains all the content and resources for the website
+├──── content           # contains the HTML for the section as well as any custom CSS & JS overrides
+├──── resources         # website resources
+├─────── flags          # custom svg country flags
+├─────── icons          # custom svg icons
+├─ index.css            # main CSS
+├─ index.html           # main HTML file for GitHub Pages
+├─ index.js             # main JS
+└─ README.md
