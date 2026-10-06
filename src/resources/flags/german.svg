@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="72px" height="48px" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <clipPath id="round-corner">
+            <rect x="0" y="0" width="72" height="20" rx="4" ry="4"/>
+        </clipPath>
+    </defs>
+
+    <rect width="72" height="16" clip-path="url(#round-corner)" fill="black"/>
+    <rect x="0" y="17" width="72" height="16" fill="red"/>
+    <rect width="72" height="15" clip-path="url(#round-corner)" fill="yellow" transform="rotate(180 36 24)"/>
+</svg>

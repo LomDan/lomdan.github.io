@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../../../index.css"/>
-        <link rel="stylesheet" href="./languages.css"/>
-        <script src="../../../index.js" defer></script>
+        <link rel="stylesheet" href="./index.css"/>
+        <link rel="stylesheet" href="./src/content/languages/languages.css"/>
+        <script src="./index.js" defer></script>
     </head>
     <body>
         <main>
@@ -11,10 +11,9 @@
                 <h3>Languages.</h3>
             </section>
             <section id="languages-content">
-            </section>
-            <section id="languages-actions">
-                <button id="languages-forward" onclick="scroll_experience_items_backward()"><-</button>
-                <button id="languages-backward" onclick="scroll_experience_items_forward()">-></button>
+                <ul class="carousel">
+                    <div class="blur"></div>
+                </ul>
             </section>
         </main>
     </body>

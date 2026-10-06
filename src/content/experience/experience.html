@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../../../index.css"/>
-        <link rel="stylesheet" href="./experience.css"/>
-        <script src="../../../index.js" defer></script>
+        <link rel="stylesheet" href="./index.css"/>
+        <link rel="stylesheet" href="./src/content/experience/experience.css"/>
+        <script src="./index.js" defer></script>
     </head>
     <body>
         <main>
@@ -11,22 +11,25 @@
                 <h3>Experience.</h3>
             </section>
             <section id="experience-content">
-                <div class="card">
-                    <h4>Intern Software Developer</h4>
-                    <h5>DMIX</h5>
-                    <p>February 2025 - Present</p>
-                    <p>Worked on Full Stack Applications.</p>
-                </div>
-                <div class="card">
-                    <h4>Live Sound Engineer</h4>
-                    <h5>Freelance</h5>
-                    <p>January 2026 - Present</p>
-                    <p>Live sound engineering for live bands.</p>
-                </div>
-            </section>
-            <section id="experience-actions">
-                <button id="experience-forward" onclick="scroll_experience_items_backward()"><-</button>
-                <button id="experience-backward" onclick="scroll_experience_items_forward()">-></button>
+                <ul class="carousel">
+                    <li class="carousel-item" data-accName="dmix">
+                        <div>
+                            <h4>Intern Software Developer</h4>
+                            <h5>DMIX</h5>
+                            <p>February 2025 - Present</p>
+                            <p>Worked on Full Stack Applications.</p>
+                        </div>
+                    </li>
+                    <li class="carousel-item" data-accName="sound-engineer">
+                        <div>
+                            <h4>Live Sound Engineer</h4>
+                            <h5>Freelance</h5>
+                            <p>January 2026 - Present</p>
+                            <p>Live sound engineering for live bands.</p>
+                        </div>
+                    </li>
+                    <div class="blur"></div>
+                </ul>
             </section>
         </main>
     </body>
