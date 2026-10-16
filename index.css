@@ -38,9 +38,12 @@ html {
     position: fixed;
     z-index: var(--control-plane);
     top: 8px;
+    right: 8px;
 
     margin: 8px;
     padding: 10px;
+
+    min-width: max-content;
 
     border-style: solid;
     border-color: var(--secondary-color);
@@ -70,9 +73,12 @@ html {
     position: fixed;
     z-index: var(--control-plane);
     bottom: 8px;
+    right: 8px;
 
     margin: 8px;
     padding: 10px;
+
+    min-width: max-content;
 
     border-style: solid;
     border-color: var(--secondary-color);
@@ -112,8 +118,26 @@ a:hover {
 
 p {
     padding: 2px;
-    padding-left: 8px;
     letter-spacing: 0.04em;
 
     font-variant-ligatures: none;
+}
+
+ul.card {
+    list-style: none;
+}
+
+li.card-item {
+    margin: 10px;
+    padding: 10px;
+
+    width: max-content;
+
+    border-style: solid;
+    border-color: var(--secondary-color);
+    border-width: 1px;
+    border-radius: var(--border-radius);
+
+    background-color: var(--secondary-color-transparent-1a);
+    backdrop-filter: blur(10px);
 }
