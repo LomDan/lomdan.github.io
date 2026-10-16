@@ -35,7 +35,7 @@ html {
 }
 
 .header {
-    position: sticky;
+    position: fixed;
     z-index: var(--control-plane);
     top: 8px;
 
@@ -62,7 +62,7 @@ html {
 }
 
 .content {
-    margin: 8px 20px 8px 8px;
+    margin: 100px 20px 8px 10px;
     padding: 10px;
 }
 
@@ -116,92 +116,4 @@ p {
     letter-spacing: 0.04em;
 
     font-variant-ligatures: none;
-}
-
-.blur {
-    position: absolute;
-    right: 8px;
-    
-    height: 100%;
-
-    min-width: 30vw;
-    max-width: 30vw;
-
-    background-image: linear-gradient(to right, transparent, var(--background-color));
-}
-
-.spacer {
-    min-width: 30vw;
-    max-width: 30vw; 
-}
-
-.carousel {
-    width: 100vw;
-    height: 25vw;
-    padding: 20px;
-    display: flex;
-    gap: 4vw;
-
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-
-    anchor-name: --carousel;
-}
-
-.carousel::scroll-button(*) {
-    border: 0;
-    font-size: 2rem;
-    background: none;
-    color: white;
-    opacity: 0.7;
-    cursor: pointer;
-    position: absolute;
-    position-anchor: --carousel;
-}
-
-.carousel::scroll-button(*):hover
-.carousel::scroll-button(*):focus {
-    opacity: 1;
-}
-
-.carousel::scroll-button(*):active {
-    translate: 1px 1px;
-}
-
-.carousel::scroll-button(*):disabled {
-    opacity: 0.2;
-    cursor: unset;
-}
-
-.carousel::scroll-button(left) {
-    content: "<" / "Previous";
-    right: calc(anchor(left) - 70px);
-    bottom: calc(anchor(top) + 13px);
-}
-
-.carousel::scroll-button(right) {
-    content: ">" / "Next";
-    left: calc(anchor(right) - 70px);
-    bottom: calc(anchor(top) + 13px);
-}
-
-.carousel-item {
-    list-style-type: none;
-    position: relative;
-    border-style: solid;
-    border-color: var(--tertiary-color);
-    border-width: 1px;
-    border-radius: 8px;
-
-    background-color: var(--tertiary-color-transparent-1a);
-    backdrop-filter: blur(10px);
-
-    flex: 0 0 80%;
-
-    padding: 12px;
-    scroll-snap-align: center;
-}
-
-.padder {
-    min-width: 50%;
 }
