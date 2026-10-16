@@ -18,22 +18,6 @@ function load_next_section() {
     sectionName = getSections()[getCurrSection()];
 
     switch (sectionName) {
-        case "education":
-            var url = `./src/content/${sectionName}/${sectionName}.html`;
-            load_section(url, sectionName);
-            var url = `./src/content/spoken-languages/spoken-languages.html`;
-            load_section(url, sectionName);
-            increment_section();
-            break;
-        case "experience":
-            var url = `./src/content/${sectionName}/${sectionName}.html`;
-            load_section(url, sectionName);
-            var url = `./src/content/languages/languages.html`;
-            load_section(url, sectionName);
-            var url = `./src/content/frameworks/frameworks.html`;
-            load_section(url, sectionName);
-            increment_section();
-            break;
         default:
             var url = `./src/content/${sectionName}/${sectionName}.html`;
             load_section(url, sectionName);
