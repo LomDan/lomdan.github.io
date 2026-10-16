@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="./index.css"/>
         <script src="./index.js" defer></script>
     </head>
-    <body>
+    <body onload="init()">
         <!-- NavBar -->
         <header class="header">
             <nav>
@@ -16,15 +16,6 @@
                         <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#education">Education</a>
-                    </li>
-                    <li>
-                        <a href="#experience">Experience</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li>
                         <a href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -32,27 +23,15 @@
         </header>
         <!-- Content -->
         <main class="content">
-            <section id="home">
-                <embed src="./src/content/home/home.html"></embed>
-            </section>
-            <section id="about">
-                <embed src="./src/content/about/about.html"></embed>
-            </section>
-            <section id="#education">
-                <embed src="./src/content/education/education.html"></embed>
-                <embed src="./src/content/spoken-languages/spoken-languages.html"></embed>
-            </section>
-            <section id="experience">
-                <embed src="./src/content/experience/experience.html"></embed>
-                <embed src="./src/content/languages/languages.html"></embed>
-                <embed src="./src/content/frameworks/frameworks.html"></embed>
-            </section>
-            <section id="projects">
-                <embed src="./src/content/projects/projects.html"></embed>
-            </section>
-            <section id="#contact">
-                <embed src="./src/content/contact/contact.html"></embed>
-            </section>
+            <section id="home"></section>
+            <section id="about"></section>
+            <section id="education"></section>
+            <section id="spoken-languages"></section>
+            <section id="experience"></section>
+            <section id="languages"></section>
+            <section id="frameworks"></section>
+            <section id="projects"></section>
+            <section id="contact"></section>
         </main>
         <!-- Footer -->
         <footer class="footer">
