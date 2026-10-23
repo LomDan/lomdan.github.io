@@ -1,1 +1,10 @@
 /* Resevered for any custom overrides for the languages section */
+#typescript {
+    border-radius: 4px 14px 14px 12px;
+    margin-bottom: 2px;
+}
+
+#csharp {
+    border-radius: 12px 14px 14px 30px;
+    margin-top: 2px;
+}

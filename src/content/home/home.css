@@ -1,1 +1,46 @@
 /* Resevered for any custom overrides for the home section */
+#home-hero {
+    display: flex;
+    flex-direction: row;
+    max-height: min-content;
+}
+
+#hi {
+    font-family: "Sarina";
+    font-size: 64px;
+    padding-right: 10px;
+    color: #EDF6F9;
+    letter-spacing: 0.20em;
+}
+
+#im {
+    font-family: "Nova Mono";
+    font-size: 48px;
+    padding-top: 18px;
+    padding-right: 15px;
+    color: #EDF6F9;
+}
+
+#dan {
+    font-family: "Nova Cut";
+    font-size: 48px;
+    padding-top: 24px;
+    color: #F29559;
+}
+
+#dot {
+    font-family: "Nova Mono";
+    font-size: 48px;
+    padding-top: 18px;
+    color: #EDF6F9;
+}
+
+#home-content {
+    max-width: 80vw;
+}
+
+.em {
+    font-family: "Yuyu short";
+    color: #FE5F55;
+    font-size: 30px;
+}
